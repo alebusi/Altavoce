@@ -16,14 +16,9 @@ body {
 }
 
 #testo {
-  font-size: 40px;
+  font-size: 5px;
   text-transform: uppercase;
   letter-spacing: 4px;
   color: white;
-  top: 25%;
-  left: 15%;
-  position: absolute;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
   background-color: black;
 }
