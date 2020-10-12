@@ -5,6 +5,7 @@ $(document).ready(function(){
 });
   
 testoRaw=document.getElementById("testoCompleto").innerHTML;
+/* testo=testoRaw.substr(testoRaw.indexOf("#")+1); */
 testo=sistemaTesto(testoRaw);	
 document.getElementById("testo").innerHTML=testo;
 
