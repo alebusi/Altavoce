@@ -16,7 +16,13 @@ body {
 }
 
 #testo {
-  font-size: 5px;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
   color: white;
-  background-color: black;
-}
+  top: 25%;
+  left: 15%;
+  position: absolute;
+  -ms-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+  background-color: black;}
