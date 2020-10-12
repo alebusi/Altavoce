@@ -15,17 +15,6 @@ body {
   opacity: 0;
 }
 
-#guida {
-  width: 768px;
-  height: 2px;
-  top: 25%;
-  left: 15%;
-  -ms-transform: translate(-110%, -50%);
-  transform: translate(0, -50%);
-  position: absolute;
-  background-color: white;
-}
-
 #testo {
   font-size: 40px;
   text-transform: uppercase;
@@ -37,53 +26,4 @@ body {
   -ms-transform: translate(0, -50%);
   transform: translate(0, -50%);
   background-color: black;
-}
-
-#inizio, #fine {
-  width: 40px;
-  height: 40px;
-  top: 25%;
-  left: 15%;
-  -ms-transform: translate(-60px, -50%);
-  transform: translate(-60px, -50%);
-  position: absolute;
-  background-color: #ff3300;
-}
-
-#fine {
-  transform: translate(788px, -50%);
-}
-/*
-.sinistra {
-    position: fixed;
-    width: 20vw;
-    height: 99vh;
-    touch-action: none;
-}
-*/
-.destra {
-    position: fixed;
-    width: 20vw;
-    height: 99vh;
-    left: 80vw;
-    touch-action: none;
-}
-
-#velocita, #dimensione, #case {
-    position: fixed;
-    top: 70vh;
-    width: 25vw;
-    height: 30vh;
-    color: white;
-    font-size: 4vh;
-    padding-top: 13vh;
-    text-align: center;
-}
-
-#dimensione {
-    left: 25vw;
-}
-
-#case {
-    left: 50vw;
 }
