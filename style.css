@@ -17,8 +17,6 @@ body {
 
 #testo {
   font-size: 5px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
   color: white;
   background-color: black;
 }
