@@ -25,9 +25,10 @@ $(window).load(function () {
 
 function caricaTesto() {
   testoRaw=document.getElementById("testoCompleto").innerHTML;
-  /* testo=testoRaw.substr(testoRaw.indexOf("#")+1); */
+  testoRaw=testoRaw.substr(testoRaw.indexOf("minuti")+1);
+  testoRaw=testoRaw.substr(1,testoRaw.indexOf("Pubblicato da")-1);  
   testoFinale=sistemaTesto(testoRaw);	
-  document.getElementById("testo").innerHTML="secondo testo";
+  document.getElementById("testo").innerHTML=testoFinale;
 }
 
 function sistemaTesto(testo) {
