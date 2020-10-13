@@ -1,11 +1,11 @@
 var testoFinale="";
 
 window.addEventListener("keydown", keypress_handler, false);
-/*
+
 $(document).ready(function(){
     $("#testoCompleto").load("https://docs.google.com/document/d/e/2PACX-1vTYZ7j14zvmea0tzkWS8wdm54-6gxHFMuATwkWe7xBjW_KvD8zOrKGVpErNOLbkV4d5jEzphBLLWT-u/pub span", caricaTesto);
 });
-*/
+
 function keypress_handler(event) {
   if (event.keyCode == 32) { 
     testoRaw=document.getElementById("testoCompleto").innerHTML;
