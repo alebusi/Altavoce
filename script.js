@@ -19,8 +19,9 @@ $(window).load(function () {
     testoRaw=document.getElementById("testoCompleto").innerHTML;
     /* testo=testoRaw.substr(testoRaw.indexOf("#")+1); */
     testoFinale=sistemaTesto(testoRaw);	
-    document.getElementById("testo").innerHTML=testoFinale; });
-}
+    document.getElementById("testo").innerHTML=testoFinale;
+});
+
 /*
 testoRaw=document.getElementById("testoCompleto").innerHTML;
 testo=testoRaw.substr(testoRaw.indexOf("#")+1);
