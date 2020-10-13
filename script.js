@@ -1,13 +1,13 @@
-var testo="";
-/*
+var testoFinale="";
+
 $(document).ready(function(){
     $("#testoCompleto").load("https://docs.google.com/document/d/e/2PACX-1vTYZ7j14zvmea0tzkWS8wdm54-6gxHFMuATwkWe7xBjW_KvD8zOrKGVpErNOLbkV4d5jEzphBLLWT-u/pub span");
 });
-*/
+
 testoRaw=document.getElementById("testoCompleto").innerHTML;
 /* testo=testoRaw.substr(testoRaw.indexOf("#")+1); */
-testo=sistemaTesto(testoRaw);	
-document.getElementById("testo").innerHTML=testo;
+testoFinale=sistemaTesto(testoRaw);	
+document.getElementById("testo").innerHTML=testoFinale;
 
 function sistemaTesto(testo) {
   testo = testo.replace(/à/ig,"ah");
