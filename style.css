@@ -1,28 +1,10 @@
-body {
-  background-color: black;
-  font-family: 'Source Code Pro', monospace, serif;
-  -webkit-user-select: none; /* Safari */
-  -ms-user-select: none; /* IE 10+ and Edge */
-  user-select: none; /* Standard syntax */
-}
-
 #testoCompleto {
   width: 90vw;
   color: white;
-  font-size: 3px;
+  font-size: 10px;
   background-color: black;
-  position: fixed;
-  opacity: 0;
 }
 
 #testo {
-  font-size: 40px;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  color: white;
-  top: 25%;
-  left: 15%;
-  position: absolute;
-  -ms-transform: translate(0, -50%);
-  transform: translate(0, -50%);
-  background-color: black;}
+  color: red;
+}
