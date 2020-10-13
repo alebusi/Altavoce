@@ -2,8 +2,10 @@ var testoFinale="";
 
 window.addEventListener("keydown", keypress_handler, false);
 
+document.getElementById("testoCompleto").innerHTML="Lampone";
+
 function myFunction() {
-    document.getElementById("testoCompleto").innerHTML="Lampone";
+    a=1; //document.getElementById("testoCompleto").innerHTML="Lampone";
   /*  $("#testoCompleto").load("https://docs.google.com/document/d/e/2PACX-1vTYZ7j14zvmea0tzkWS8wdm54-6gxHFMuATwkWe7xBjW_KvD8zOrKGVpErNOLbkV4d5jEzphBLLWT-u/pub span", caricaTesto);  */ 
 }
 
