@@ -4,14 +4,11 @@ window.addEventListener("keydown", keypress_handler, false);
 
 $(document).ready(function(){
     $("#testoCompleto").load("https://docs.google.com/document/d/e/2PACX-1vTYZ7j14zvmea0tzkWS8wdm54-6gxHFMuATwkWe7xBjW_KvD8zOrKGVpErNOLbkV4d5jEzphBLLWT-u/pub span");
-});
-
-body.onload = function(e){ 
-    testoRaw=document.getElementById("testoCompleto").innerHTML;
+testoRaw=document.getElementById("testoCompleto").innerHTML;
     /* testo=testoRaw.substr(testoRaw.indexOf("#")+1); */
     testoFinale=sistemaTesto(testoRaw);	
     document.getElementById("testo").innerHTML=testoFinale; 
-}
+});
 
 function keypress_handler(event) {
   if (event.keyCode == 32) { 
