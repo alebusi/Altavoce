@@ -15,6 +15,13 @@ function keypress_handler(event) {
     }
 }
 
+window.onload = function(e){ 
+    testoRaw=document.getElementById("testoCompleto").innerHTML;
+    /* testo=testoRaw.substr(testoRaw.indexOf("#")+1); */
+    testoFinale=sistemaTesto(testoRaw);	
+    document.getElementById("testo").innerHTML=testoFinale; 
+}
+
 /*
 testoRaw=document.getElementById("testoCompleto").innerHTML;
 testo=testoRaw.substr(testoRaw.indexOf("#")+1);
