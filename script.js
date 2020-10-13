@@ -23,11 +23,12 @@ $(window).load(function () {
 
 function caricaTesto() {
   testoRaw=document.getElementById("testoCompleto").innerHTML;
-  testoRaw=testoRaw.substr(testoRaw.indexOf("minuti")+5);
-  testoRaw=testoRaw.substr(1,testoRaw.indexOf("Pubblicato da")-1);  
+  /*testoRaw=testoRaw.substr(testoRaw.indexOf("minuti")+5);
+  testoRaw=testoRaw.substr(1,testoRaw.indexOf("Pubblicato da")-1);
+  */
   testoFinale=sistemaTesto(testoRaw);	
   document.getElementById("testo").innerHTML=testoFinale;
-  document.getElementById("testoCompleto").innerHTML=testoFinale;    
+  /*document.getElementById("testoCompleto").innerHTML=testoFinale;*/
 }
 
 function sistemaTesto(testo) {
