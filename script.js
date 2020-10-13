@@ -13,7 +13,6 @@ function keypress_handler(event) {
     document.getElementById("testo").innerHTML=testoFinale;
     }
 }
-*/
 /*
 $(window).load(function () {
     testoRaw=document.getElementById("testoCompleto").innerHTML;
